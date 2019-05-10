@@ -4,10 +4,13 @@ title: Clyde
 ---
 
 <table class="body">
+  <%= partial "partials/components/spacer", locals: { height: 40 } %>
   <tr>
     <td class="center" align="center" valign="top">
-      <%= partial "partials/clyde/modules/header" %>
-      <%= partial "partials/clyde/modules/social" %>
+      <%= partial "partials/pages/clyde/modules/header" %>
+      <%= partial "partials/pages/clyde/modules/hero" %>
+      <%= partial "partials/pages/clyde/modules/social" %>
     </td>
   </tr>
+  <%= partial "partials/components/spacer", locals: { height: 40 } %>
 </table>

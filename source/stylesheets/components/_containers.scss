@@ -3,6 +3,11 @@ table.container {
   margin: 0 auto;
   Margin: 0 auto;
   text-align: inherit;
+  background: #ffffff;
+}
+
+table.text-container {
+  width: $text-container-width;
 }
 
 @media only screen and (max-width: $global-breakpoint) {
