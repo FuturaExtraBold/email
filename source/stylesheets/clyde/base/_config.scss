@@ -1,0 +1,28 @@
+// Standard Colors
+$color-light: #f7f8f9;
+$color-primary: #2e91fc;
+
+// Text Colors
+$text-light: #748493;
+$text-default: #556370;
+$text-dark: #373f47;
+$text-extra-light: #a0a7af;
+
+// Typography
+$font-family-default: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+$font-size-default: 18px;
+
+// Layout
+$global-breakpoint: 767px;
+
+// Containers
+$container-width: 712px; // Must be evenly divisible by 2, 3, 4
+
+// Grids
+$grid-spacer-width: 20px;
+$grid-width-half: ($container-width - $grid-spacer-width) / 2; // 346
+$grid-width-third: ($container-width - ($grid-spacer-width * 2)) / 3; // 224
+$grid-width-quarter: ($container-width - ($grid-spacer-width * 3)) / 4; // 163
+
+// Elements
+$border-radius-default: 4px;
