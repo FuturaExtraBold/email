@@ -1,1 +1,10 @@
-@import "clyde/base/config";
+@import "base/config";
+@import "base/document";
+@import "base/typography";
+
+@import "components/images";
+@import "components/section";
+@import "components/spacer";
+@import "components/tables";
+
+@import "pages/clyde/modules/header";

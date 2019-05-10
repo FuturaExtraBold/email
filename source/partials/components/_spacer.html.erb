@@ -1,0 +1,8 @@
+<tr>
+  <% if locals.key?(:height_mobile) %>
+    <td class="hidden-mobile" height="<%= height %>" style="font-size:0; line-height:0;"></td>
+    <td class="hidden-desktop" height="<%= height_mobile %>" style="font-size:0; line-height:0;"></td>
+  <% else %>
+    <td height="<%= height %>" style="font-size:0; line-height:0;"></td>
+  <% end %>
+</tr>

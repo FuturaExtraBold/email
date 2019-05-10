@@ -1,0 +1,38 @@
+img {
+  line-height: 100%;
+  display: block;
+  clear: both;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  text-decoration: none;
+  -ms-interpolation-mode: bicubic;
+  border: 0 none;
+  outline: none;
+}
+a img {
+  border: 0 none;
+}
+.image--center {
+  font-size: 0;
+  margin-bottom: 0;
+  Margin-bottom: 0;
+  text-align: center;
+  > div {
+    display: inline-block;
+  }
+  > img {
+    display: inline-block;
+  }
+}
+.image--inline-block {
+  display: inline-block;
+}
+@media only screen and (max-width: $global-breakpoint) {
+  img {
+    display: block !important;
+    width: auto !important;
+    max-width: 100% !important;
+    height: auto !important;
+  }
+}
