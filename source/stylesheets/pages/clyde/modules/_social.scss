@@ -1,0 +1,15 @@
+.social {
+  &__icon-container {
+    display: inline-block;
+  }
+  &__icon {
+    width: 26px;
+    height: 26px;
+  }
+  &__icon--twitter {
+    width: 30px;
+  }
+  &__icon--youtube {
+    width: 32px;
+  }
+}

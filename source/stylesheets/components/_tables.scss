@@ -24,3 +24,9 @@ th.float-center {
   Margin: 0 auto;
   text-align: center;
 }
+
+@media only screen {
+  html {
+    min-height: 100%;
+  }
+}

@@ -1,0 +1,12 @@
+table.container {
+  width: $container-width;
+  margin: 0 auto;
+  Margin: 0 auto;
+  text-align: inherit;
+}
+
+@media only screen and (max-width: $global-breakpoint) {
+  table.container {
+    width: 90% !important;
+  }
+}
