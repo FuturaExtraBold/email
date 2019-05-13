@@ -1,0 +1,12 @@
+.text {
+  width: $text-container-width;
+  &__title {
+    margin-bottom: 5px;
+    Margin-bottom: 5px;
+  }
+  &__subtitle {
+    margin-bottom: 0;
+    Margin-bottom: 0;
+    color: $text-light;
+  }
+}

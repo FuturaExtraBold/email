@@ -1,4 +1,4 @@
-table.container {
+.container {
   width: $container-width;
   margin: 0 auto;
   Margin: 0 auto;
@@ -6,12 +6,8 @@ table.container {
   background: #ffffff;
 }
 
-table.text-container {
-  width: $text-container-width;
-}
-
 @media only screen and (max-width: $global-breakpoint) {
-  table.container {
+  .container {
     width: 90% !important;
   }
 }
