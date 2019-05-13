@@ -1,0 +1,24 @@
+.small-cta {
+  width: 644px;
+  .text__description {
+    font-size: 16px;
+    margin: 20px 0;
+  }
+  .small-link {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .small-cta {
+    float: none;
+    &__text {
+      @include block-mobile;
+    }
+    &__spacer {
+      display: none;
+    }
+    &__image {
+      @include block-mobile;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+@mixin appearance-none {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+@mixin block-mobile {
+  display: block !important;
+  width: 100% !important;
+}
+@mixin hide {
+  font-size: 0;
+  display: none;
+  max-height: 0;
+  mso-hide: all;
+}
+@mixin hide--important {
+  font-size: 0 !important;
+  display: none !important;
+  max-height: 0 !important;
+  mso-hide: all !important;
+}
+@mixin show {
+  font-size: $font-size-default !important;
+  display: block !important;
+  max-height: none !important;
+  mso-hide: all !important;
+}
+.hidden-desktop {
+  @include hide;
+}
+.align-middle {
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: #{$global_breakpoint}) {
+  .hidden-desktop {
+    @include show;
+  }
+  .hidden-mobile {
+    @include hide--important;
+  }
+}

@@ -1,0 +1,40 @@
+@mixin column-mobile-styles {
+  display: block !important;
+  width: 100% !important;
+}
+.grid {
+  width: 100%;
+  &__column {
+    > table {
+      width: 100%;
+    }
+  }
+  &__column--half {
+    width: $grid-width-half;
+  }
+  &__column--third {
+    width: $grid-width-third;
+  }
+  &__column--quarter {
+    width: $grid-width-quarter;
+  }
+  &__column--spacer {
+    width: $grid-spacer-width;
+  }
+}
+@media (max-width: #{$global-breakpoint}) {
+  .grid {
+    &__column--half {
+      @include column-mobile-styles;
+    }
+    &__column--third {
+      @include column-mobile-styles;
+    }
+    &__column--quarter {
+      @include column-mobile-styles;
+    }
+    &__column--spacer {
+      @include hide--important;
+    }
+  }
+}
